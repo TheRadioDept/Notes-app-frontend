@@ -6,9 +6,9 @@ export default function Navbar() {
     <h1>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#" to={"/"}>
             Notes App
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
